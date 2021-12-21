@@ -1,9 +1,9 @@
 #!/bin/bash
 set -euo pipefail
 
-if [ -d "./tempdir" ]; then
-    rm -r tempdir
-fi
+#if [ -d "./tempdir" ]; then
+#    rm -r tempdir
+#fi
 
 mkdir tempdir
 mkdir tempdir/templates
